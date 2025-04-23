@@ -19,7 +19,6 @@ import java.util.List;
 // UserDetails를 상속받아 인증 객체로 활용
 public class User implements UserDetails {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false)
