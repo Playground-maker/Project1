@@ -32,6 +32,10 @@ dependencies {
 
 	implementation 'io.jsonwebtoken:jjwt:0.9.1' // 자바 jwt 라이브러리
 	implementation 'javax.xml.bind:jaxb-api:2.3.1'
+<<<<<<< HEAD
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+=======
+>>>>>>> 4776aa690f99a81460e9edc8733706f35317558f
     testImplementation 'org.projectlombok:lombok:1.18.26'// xml 문서와 java 객체 간 매핑 자동화 라이브러리
 
 	runtimeOnly 'com.h2database:h2'
